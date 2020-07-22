@@ -10,7 +10,11 @@ How to setup Hyperion.ng to use a PI camera
 
 
 ## Steps:
- 1. Install the Pi cameraActivate the camera in rasp-config
+ 1. Install Hyperion.ng
+    - Follow DrZzs guide - https://www.youtube.com/watch?v=urOEHzbV48A
+    - You will NOT need the HDMI capture card. The PI Camera is what you will use.
+    - Have you pi camera hooked up
+ 1. Activate the camera in rasp-config
     - Enable both the camera and SPI
  1. Run these commands to make the camera work with USB/Hyperion
     - sudo modprobe bcm2835-v4l2
