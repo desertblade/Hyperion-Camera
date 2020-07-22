@@ -26,9 +26,9 @@ WARNING: This does not work with the 5/27 build of Hyperion.NG! You will need to
  1. Go to hyperion 
  1. Under Configuration Enable USB Capture
  1. Change Size Decimation to 1
-   - We set a lower resolution above
- 1. Under Led Harware configure you layout
+    - We set a lower resolution above
+ 1. Under Led Hardware configure you layout
  1. Go to advanced setting to change Trapezoid to fit your TV
-   - The 4 corners of your TV
-   - Refresh page and click on the TV icon in the top right corner, clock live view
-   - Won't be perfect get it close
+    - The 4 corners of your TV
+    - Refresh page and click on the TV icon in the top right corner, clock live view
+    - Won't be perfect get it close
