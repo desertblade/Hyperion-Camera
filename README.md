@@ -22,7 +22,7 @@ WARNING: This does not work with the 5/27 build of Hyperion.NG! You will need to
     - sudo modprobe bcm2835-v4l2
     - Configure Camera
       - Mine is upside down
-      - /usr/bin/v4l2-ctl --set-ctrl=rotate=180 --set-fmt-video=width=1280,height=720,pixelformat=UYVY -d /dev/video0
+      - /usr/bin/v4l2-ctl --set-ctrl=rotate=180 --set-fmt-video=width=1280,height=720,pixelformat=UYVY -d /dev/video0 -p 30
     - Will need to run this command on every reboot (will add services at some time)
  1. Go to hyperion 
  1. Under Configuration Enable USB Capture
@@ -31,5 +31,5 @@ WARNING: This does not work with the 5/27 build of Hyperion.NG! You will need to
  1. Under Led Hardware configure you layout
  1. Go to advanced setting to change Trapezoid to fit your TV
     - The 4 corners of your TV
-    - Refresh page and click on the TV icon in the top right corner, clock live view
+    - Refresh page and click on the TV icon in the top right corner, click live view
     - Won't be perfect get it close
