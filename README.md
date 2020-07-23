@@ -23,6 +23,7 @@ WARNING: This does not work with the 5/27 build of Hyperion.NG! You will need to
     - Configure Camera
       - Mine is upside down
       - /usr/bin/v4l2-ctl --set-ctrl=rotate=180 --set-fmt-video=width=1280,height=720,pixelformat=UYVY -d /dev/video0
+    - Will need to run this command on every reboot (will add services at some time)
  1. Go to hyperion 
  1. Under Configuration Enable USB Capture
  1. Change Size Decimation to 1
