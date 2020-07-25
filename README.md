@@ -26,8 +26,8 @@ WARNING: This does not work with the 5/27 build of Hyperion.NG! You will need to
     - Will need to run this command on every reboot (will add services at some time)
  1. Go to hyperion 
  1. Under Configuration Enable USB Capture
- 1. Change Size Decimation to 1
-    - We set a lower resolution above
+ 1. Change Size Decimation to 2 to 4 
+    - Experiment to get a good balance of speed and capture amount
  1. Under Led Hardware configure you layout
  1. Go to advanced setting to change Trapezoid to fit your TV
     - The 4 corners of your TV
