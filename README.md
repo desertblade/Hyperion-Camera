@@ -2,6 +2,7 @@
 How to setup Hyperion.ng to use a PI camera
 
 WARNING: This does not work with the 5/27 build of Hyperion.NG! You will need to build the latest to get it to work. 
+NOTE: I have stopped using this solution and moved to HDMI capture. Lossing HDR sucks, but overall the experience is better.
 
 ## Parts List:
  * Pi Camera: https://www.amazon.com/gp/product/B07RXKZ1KN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1Long 
